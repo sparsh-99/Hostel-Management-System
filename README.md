@@ -1,6 +1,5 @@
-[![Build Status](https://travis-ci.com/starkblaze01/Hostel-Management.svg?branch=master)](https://travis-ci.com/starkblaze01/Hostel-Management)
 
-# Hostel-Management
+# Hostel-Management-System
 Manage Your Hostel 
 
 ## Topics Covered
@@ -9,8 +8,6 @@ Manage Your Hostel
 - Bootstrap
 - Reactstrap
 - Redux
-- JWT Authentication
-- API testing using Jest
 
 ## Development and Installation
 
@@ -22,7 +19,7 @@ Manage Your Hostel
 
 ### Setup up dev_keys for database
 - Either run local MongoServer or,
-- Setup Mongo Server at online platform like mlab and Create a keys_dev.js file in [config](https://github.com/starkblaze01/Hostel-Management/tree/master/config) folder and set up:-
+- Setup Mongo Server at online platform like mlab and Create a keys_dev.js file in config folder and set up:-
 ``` 
 module.exports = {
   mongoURI: YOUR_LOCAL_MONGO_SERVER_URI,
@@ -34,8 +31,6 @@ module.exports = {
 
 ### For testing
 - `npm run test`
-
-**Find API Documentation [here](https://github.com/starkblaze01/Hostel-Management/blob/master/API_Endpoints.md).**
 
 ### Screenshots
 
@@ -53,4 +48,4 @@ module.exports = {
 Liked the project? Hit the star button to show support!
 
 ## Found an Issue or any suggestions
-Make an issue [here](https://github.com/starkblaze01/Hostel-Management/issues/new).
+Make an issue 
